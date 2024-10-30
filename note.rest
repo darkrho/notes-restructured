@@ -1,0 +1,13 @@
+GET https://notes-yjtm.onrender.com/api/notes
+
+###
+GET https://notes-yjtm.onrender.com/api/notes/6
+
+###
+POST https://notes-yjtm.onrender.com/api/notes
+content-type: application/json
+
+{
+  "content": "VS code rest client is a pretty handy tool",
+  "important": true
+}
