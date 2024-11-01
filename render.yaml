@@ -1,8 +1,0 @@
-services:
-  - type: web
-    plan: free
-    name: Notes
-    runtime: node
-    repo: https://github.com/darkrho/note-restructured
-    buildCommand: "npm install"
-    startCommand: "npm run start"
